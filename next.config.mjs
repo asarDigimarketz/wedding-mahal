@@ -10,7 +10,7 @@ const nextConfig = {
             key: "Access-Control-Allow-Origin",
             value:
               process.env.NODE_ENV === "production"
-                ? "https://www.jrvmahal.com"
+                ? process.env.NEXT_PUBLIC_API_URL
                 : "http://localhost:3000",
           },
           {
@@ -40,7 +40,12 @@ const nextConfig = {
       //   hostname: `${process.env.DO_SPACE_BUCKET}.${process.env.DO_SPACE_REGION}.digitaloceanspaces.com`,
       // },
     ],
-    domains: ["jrvmahal.com", "jrv-mahal.nyc3.digitaloceanspaces.com"],
+    domains: [
+      "jrvmahal.com",
+      "jrv-mahal.nyc3.digitaloceanspaces.com",
+      "mahal.demomnt.com",
+      "smarthome.mntfuture.com",
+    ],
     unoptimized: true,
   },
 
