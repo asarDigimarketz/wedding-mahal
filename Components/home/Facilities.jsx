@@ -73,8 +73,8 @@ export default function Home() {
           className="w-full md:w-1/2 h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] relative group overflow-hidden"
         >
           <Image
-            src="/home/1.jpg"
-            alt="Luxury wedding venue with elegant sofa and floral decorations"
+            src="/hall/mahal-dinning.jpeg"
+            alt="Luxury banquet hall with elegant dining setup and purple lighting"
             fill
             className="object-cover transition-transform duration-700 group-hover:scale-110"
             priority
@@ -160,8 +160,8 @@ export default function Home() {
           className="w-full md:w-1/2 h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] relative group overflow-hidden"
         >
           <Image
-            src="/home/2.jpg"
-            alt="Luxury hotel room with bed and seating area"
+            src="/hall/mahal-outside.jpeg"
+            alt="Luxury banquet hall exterior with elegant lighting at night"
             fill
             className="object-cover transition-transform duration-700 group-hover:scale-110"
             priority

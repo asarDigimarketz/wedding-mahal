@@ -11,8 +11,8 @@ export default function Home() {
       <section className="flex flex-col md:flex-row gap-6 sm:gap-8 md:gap-0"> 
         <div className="w-full md:w-1/2 h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px]">
           <Image
-            src="home/1.jpg"
-            alt="Luxury wedding venue with elegant sofa and floral decorations"
+            src="/hall/mahal-auditorium.jpeg"
+            alt="Luxury banquet hall auditorium with elegant stage and seating"
             width={800}
             height={600}
             className="w-full h-full object-cover rounded-lg md:rounded-none"

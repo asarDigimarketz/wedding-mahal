@@ -1,5 +1,6 @@
 import About from "../../Components/about/About.jsx";
 import WhyChooseus from "../../Components/about/WhyChooseus";
+import HallGallery from "../../Components/about/HallGallery";
 import ExtraService from "@/Components/home/ExtraService";
 import QuoteRequest from "../../Components/home/QuoteRequest";
 
@@ -14,6 +15,10 @@ export default function Home() {
      
       <div className="">
         <WhyChooseus />
+      </div>
+     
+      <div className="">
+        <HallGallery />
       </div>
      
       <div className="">
