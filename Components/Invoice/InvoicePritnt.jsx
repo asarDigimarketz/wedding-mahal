@@ -576,10 +576,10 @@ const InvoiceContent = React.forwardRef(({ ...props }, ref) => {
               />
             ) : (
               <div
-                className="text-2xl md:text-3xl font-bold print:text-xl"
+                className="text-xl md:text-2xl font-bold print:text-lg text-center leading-tight"
                 style={{ color: "var(--invoice-color)" }}
               >
-                JRV
+                RG Golden Palace
               </div>
             )}
           </div>

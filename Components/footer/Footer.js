@@ -48,9 +48,7 @@ export default function Footer({ logoUrl }) {
             </div>
           </Link>
           <p className="text-gray-400 mb-6 mt-5">
-            RV Mahal blends modern comforts with traditional elegance to deliver
-            unforgettable experiences. With spacious halls, well-furnished
-            rooms, and top-tier amenities, your dream event starts right here.{" "}
+            Renganathan Gandhimathi Palace is the region’s largest, most spacious, and most prestigious event destination, thoughtfully designed to host weddings and celebrations with unmatched elegance.
           </p>
           <div className="flex space-x-4 pt-4">
             <a href="#" className="hover:text-hotel-primary">
@@ -91,11 +89,12 @@ export default function Footer({ logoUrl }) {
         <div>
           <h4 className="text-lg font-serif mb-4">ADDRESS</h4>
           <div className="text-gray-400 space-y-2">
-            <p>234, Main Rd,</p>
-            <p>Kallidaikurchi </p>
-            <p>TamilNadu 627416</p>
-            <p>Phone: +91 94896 04545</p>
-            <p>Email: vrj@gmail.com</p>
+            <p>RG Golden Palace A/C,</p>
+            <p>Karaikudi – Dindigul Road,</p>
+            <p>Singampunari – 630 502,</p>
+            <p>Sivagangai District</p>
+            <p>Phone: +91 6381150034</p>
+            <p>Email: garudas1975@gmail.com</p>
           </div>
         </div>
       </div>
@@ -103,7 +102,7 @@ export default function Footer({ logoUrl }) {
       <div className="max-w-7xl mx-auto px-4 mt-16 pt-8 border-t border-gray-800">
         <div className="flex justify-evenly  mb-4">
           <p className="text-start text-gray-400">
-            © {new Date().getFullYear()} JRV Mahal. All Rights Reserved.
+            © {new Date().getFullYear()} RG Golden Palace. All Rights Reserved.
           </p>
           <Link
             href="/privacy-policy"
