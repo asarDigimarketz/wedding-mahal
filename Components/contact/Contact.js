@@ -25,7 +25,7 @@ export default function ContactPage() {
         </div>
       </div>
       <section className=" my-5">
-        <div className="container mx-auto bg-[#FFE9E9] rounded-md shadow-md">
+        <div className="container mx-auto bg-gradient-to-br from-hotel-primary/15 to-hotel-primary/5 rounded-md shadow-md">
           <div className="grid grid-cols-1 md:grid-cols-2 p-8">
             <ContactInfo />
             <ContactForm />

@@ -28,7 +28,7 @@ const About = () => {
               relative inline-block after:content-[''] after:absolute after:w-1/2 after:h-0.5 after:bg-hotel-primary 
               after:bottom-0 after:left-1/2 after:-translate-x-1/2 lg:after:left-0 lg:after:translate-x-0"
             >
-              HOTEL JRV
+              RG GOLDEN PALACE
             </h3>
 
             {/* Main heading with dynamic line height and responsive font sizes */}
@@ -36,11 +36,11 @@ const About = () => {
               font-medium text-gray-800 leading-[1.2] sm:leading-[1.3] md:leading-[1.4] 
               tracking-tight mb-4 sm:mb-6 md:mb-8"
             >
-              <span className="block">Welcome to JRV Mahal –</span>
+              <span className="block">The Grandest Celebration</span>
               <span className="block mt-1 sm:mt-2 bg-gradient-to-r from-hotel-primary to-hotel-primary
                 text-transparent bg-clip-text"
               >
-                Where Celebrations Begin
+                Venue in the Region
               </span>
             </h1>
 
@@ -50,10 +50,7 @@ const About = () => {
               leading-relaxed sm:leading-relaxed md:leading-loose 
               mb-6 sm:mb-8 md:mb-10"
             >
-              At JRV Mahal, we believe that every celebration deserves the
-              perfect setting. Whether it&apos;s a grand wedding, an elegant
-              reception, or an intimate family function, our venue is designed
-              to host moments that matter.
+              Renganathan Gandhimathi Palace is the region’s largest, most spacious, and most prestigious event destination, thoughtfully designed to host weddings and celebrations with unmatched elegance.
             </p>
 
             {/* CTA Button with responsive padding and hover effects */}
@@ -86,7 +83,7 @@ const About = () => {
               <div className="relative w-full h-full transform transition-transform duration-300 hover:scale-105">
                 <Image
                   src="/contact/3.png"
-                  alt="JRV Mahal Venue"
+                  alt="RG Golden Palace Venue"
                   fill
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 40vw"
                   className="object-cover"

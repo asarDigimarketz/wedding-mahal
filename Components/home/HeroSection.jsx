@@ -30,30 +30,13 @@ export default function HeroSection() {
     fetchHeroData();
   }, []);
 
-  const highlightJrvMahal = (text) => {
+  const highlightHotelName = (text) => {
     const patterns = [
-      "JRV Mahal",
-      "jrv mahal",
-      "JRV mahal",
-      "JRV MAHAL",
-      "Jrv Mahal",
-      "JRV Mahal",
-      "jrv mahal",
-      "J R V MAHAL",
-      "J.R.V MAHAL",
-      "J.R.V. MAHAL",
-
-      // Additional patterns
-      "J R V Mahal",
-      "j.r.v. mahal",
-      "J-R-V Mahal",
-      "J R V mahal",
-      "jrv-mahal",
-      "j.r.v mahal",
-      "JRV-MAHAL",
-      "J R V Wedding Hall",
-      "J R V Convention",
-      "JRV Marriage Hall",
+      "RG Golden Palace",
+      "Renganathan Gandhimathi Palace",
+      "RG GOLDEN PALACE",
+      "RENGANATHAN GANDHIMATHI PALACE",
+      "JRV Mahal", // Keep old ones just in case data hasn't updated
     ];
 
     let result = text;
@@ -105,7 +88,7 @@ export default function HeroSection() {
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.4, duration: 0.6 }}
           >
-            {highlightJrvMahal(heroData.title)}
+            {highlightHotelName(heroData.title)}
           </motion.h1>
 
           <motion.p

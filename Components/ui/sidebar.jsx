@@ -64,7 +64,7 @@ export const DesktopSidebar = ({ className, children, ...props }) => {
     <>
       <motion.div
         className={cn(
-          "h-screen px-4 py-4 hidden md:flex md:flex-col bg-white dark:bg-neutral-800 max-w-[250px] flex-shrink-0 relative overflow-hidden",
+          "h-screen px-4 py-4 hidden md:flex md:flex-col bg-white dark:bg-neutral-800 max-w-[250px] flex-shrink-0 relative",
           className
         )}
         animate={{
@@ -73,10 +73,9 @@ export const DesktopSidebar = ({ className, children, ...props }) => {
         }}
         {...props}
       >
-        <div className="flex-1 overflow-hidden">{children}</div>
-        {/* <div className="flex-1 overflow-y-auto scrollbar-thin scrollbar-thumb-gray-600 scrollbar-track-transparent">
-           {children}
-         </div> */}
+        <div className="flex-1 overflow-y-auto overflow-x-hidden scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-transparent pr-2">
+          {children}
+        </div>
         <motion.button
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
